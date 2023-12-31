@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#pseudoclases {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #pseudoclases td, #pseudoclases th {
+    border: 1px solid #232323;
+    padding: 8px;
+  }
+  
+  #pseudoclases tr:nth-child(even){background-color: #242424;}
+  
+  #pseudoclases tr:hover {background-color: #282626;}
+  
+  #pseudoclases th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #71147f;
+    color: white;
+  }
